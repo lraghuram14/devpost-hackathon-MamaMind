@@ -1,0 +1,118 @@
+/* Main background */
+body {
+    background: linear-gradient(to bottom, #f8e1f4, #e1f4f8); /* Light pink to light blue gradient */
+    color: #333; /* Default text color */
+    font-family: Arial, sans-serif;
+}
+
+/* Streamlit header */
+header {
+    background-color: #e1f4f8; /* Light blue background */
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Streamlit buttons */
+button {
+    background-color: #ffccd5; /* Light pink button background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffb3c1; /* Darker pink on hover */
+}
+
+/* Streamlit text inputs */
+input[type="text"], input[type="number"], textarea {
+    background-color: #f0f8ff; /* Light blue input background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #333;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, textarea:focus {
+    outline: none;
+    border-color: #a4d3ee; /* Focus border color */
+}
+
+/* Streamlit sliders */
+.stSlider {
+    margin: 20px 0;
+}
+
+.stSlider .st-br {
+    background: linear-gradient(to right, #f8e1f4, #e1f4f8); /* Gradient for the slider */
+}
+
+/* Streamlit checkbox and radio buttons */
+.stCheckbox, .stRadio {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffebef; /* Light pink background */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.stCheckbox:hover, .stRadio:hover {
+    background-color: #ffe4e9; /* Darker pink on hover */
+}
+
+/* Streamlit selectbox and multiselect */
+.stSelectbox, .stMultiselect {
+    background-color: #e1f4f8; /* Light blue background */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.stSelectbox select, .stMultiselect select {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Streamlit file uploader */
+.stFileUploader {
+    background-color: #f8e1f4; /* Light pink background */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Streamlit progress bar */
+.stProgress {
+    background-color: #e1f4f8; /* Light blue background */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.stProgress .st-br {
+    background-color: #ffccd5; /* Light pink progress */
+    border-radius: 5px;
+}
+
+/* Streamlit sidebar */
+.sidebar .sidebar-content {
+    background-color: #e1f4f8; /* Light blue sidebar background */
+    padding: 20px;
+    border-right: 2px solid #ccc;
+}
+
+.sidebar .sidebar-content h1, .sidebar .sidebar-content h2, .sidebar .sidebar-content h3 {
+    color: #333;
+}

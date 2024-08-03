@@ -1,0 +1,15 @@
+faiss-cpu
+groq
+huggingface-hub
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langchain-huggingface
+langchain-text-splitters
+PyMuPDFb
+python-dotenv
+sentence-transformers
+streamlit
+streamlit-extras
+transformers
